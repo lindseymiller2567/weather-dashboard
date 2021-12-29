@@ -1,0 +1,16 @@
+/* CARD */
+.card {
+    border: 1px solid cornflowerblue;
+}
+
+.card-header {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+/* FORM */
+.form-input {
+  padding: 3px 0;
+  margin: 5px 0;
+  font-size: 1.2rem;
+}
