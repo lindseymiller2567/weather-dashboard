@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 /* CARD */
 .card {
     border: 1px solid cornflowerblue;

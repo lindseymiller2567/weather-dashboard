@@ -16,43 +16,86 @@
         <h1 class="p-4 text-center">Weather Dashboard</h1>
     </header>
 
-    <main class="row">
+    <main class="row d-flex">
 
         <!-- left column -->
-        <div class="col-12 col-md-4 p-4">
+        <div class="col-12 col-md-4">
             <div class="card">
                 <h2 class="card-header">Search for a City: </h2>
                 <form id="city-search" class="col-12 card-body">
-                    <input name="city" id="city" class="form-input col-12" placeholder="type in city here" />
+                    <input name="city" id="city" class="form-input col-12" placeholder="type name of city here" />
                     <button type="submit" class="btn btn-dark col-12"> Search </button>
                 </form>
             </div>
 
-            <div>
-                <p>Search History</p>
+            <div id="search-history">
+                <!-- <button class="btn btn-secondary col-12">test</button> -->
             </div>
         </div>
 
         <!-- right column-->
-        <div class="col-12 col-md-8 p-4">
-            <div>
-                <h2 class="current-city"> <span id="weather-icon" src="" alt="weather icon"> </span> </h2>
-                <div id="city-container"> 
+        <div class="col-12 col-md-8">
+            <div id="current-city-container">
+                <h2 class="current-city"></h2>
+                <div>
                     <p class="current-temp"></p>
                     <p class="current-wind"></p>
                     <p class="current-humidity"></p>
-                    <p class="current-uv-index"></p>
+                    <p class="current-uv"></p>
                 </div>
             </div>
 
             <div>
-                <p>Coming Soon - 5-day forcast</p>
+                <h3>5-Day Forcast:</h3>
+                <div class="row">
+                    <div id="day1" class="col-12 col-md-2 m-auto bg-success">
+                        <p class="date"></p>
+                        <p class="weather-icon"></p>
+                        <p class="temp"></p>
+                        <p class="wind"></p>
+                        <p class="humidity"></p>
+                    </div>
+
+                    <div id="day2" class="col-12 col-md-2 m-auto bg-success">
+                        <p class="date"></p>
+                        <p class="weather-icon"></p>
+                        <p class="temp"></p>
+                        <p class="wind"></p>
+                        <p class="humidity"></p>
+                    </div>
+
+                    <div id="day3" class="col-12 col-md-2 m-auto bg-success">
+                        <p class="date"></p>
+                        <p class="weather-icon"></p>
+                        <p class="temp"></p>
+                        <p class="wind"></p>
+                        <p class="humidity"></p>
+                    </div>
+
+                    <div id="day4" class="col-12 col-md-2 m-auto bg-success">
+                        <p class="date"></p>
+                        <p class="weather-icon"></p>
+                        <p class="temp"></p>
+                        <p class="wind"></p>
+                        <p class="humidity"></p>
+                    </div>
+
+                    <div id="day5" class="col-12 col-md-2 m-auto bg-success">
+                        <p class="date"></p>
+                        <p class="weather-icon"></p>
+                        <p class="temp"></p>
+                        <p class="wind"></p>
+                        <p class="humidity"></p>
+                    </div>
+
+                </div>
+
             </div>
         </div>
 
     </main>
 
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script2.js"></script>
 
 </body>
 
