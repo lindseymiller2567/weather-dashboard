@@ -20,7 +20,7 @@
   font-size: 1.2rem;
 }
 
-/* 5 day forcast */
+/* 5 DAY FORCAST */
 .forcast {
   background-color: cornflowerblue;
   border-radius: 5px;
@@ -34,7 +34,7 @@
   margin-bottom: 0;
 }
 
-/* BUTTONS */
+/* SEARCH HISTORY BUTTONS */
 #search-history, button {
   width: 90%;
   margin: auto;
