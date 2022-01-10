@@ -16,4 +16,4 @@ https://lindseymiller2567.github.io/weather-dashboard/
 Created by Lindsey Dubnicka
 
 ## Screen Shot of web page
-![ScreenShot](./assets/images/weather-dashboard-screenshot.png)
+![ScreenShot](./assets/images/wweather-dashboard-screenshot.png)
